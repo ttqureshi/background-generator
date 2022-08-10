@@ -9,6 +9,9 @@ body {
 }
 
 h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     font: 600 3.5em 'Raleway', sans-serif;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
