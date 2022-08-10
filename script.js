@@ -24,7 +24,6 @@ function createRandomHexColor() {
     let b = String(dec2Hex(Math.floor(Math.random() * 256)));
 
     let hexColor = "#"+r+g+b;
-    console.log(hexColor);
     return hexColor;
 }
 
