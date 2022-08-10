@@ -1,0 +1,63 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+button {
+    padding: 0.6em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin: 1.2em;
+    border-radius: 28px;
+    background-color: rgb(36, 34, 34);
+    color: rgb(210, 245, 10);
+    font-size: 1.4em;
+    letter-spacing: .1em;
+    font: 300 1.2em "Algerian", sans-serif;
+    transition: box-shadow 0.9s, tranform 0.2s;
+    border-color: rgb(36, 34, 34);
+    border-bottom: rgb(36, 34, 34);
+    border-right: rgb(36, 34, 34);
+}
+
+button:hover{
+    /* transform: scale(1.1); */
+    cursor: pointer;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -15px 20px;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+input {
+    border-radius: 10px;
+    background-color: rgb(16, 16, 16);
+    transition: all 0.2s;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
